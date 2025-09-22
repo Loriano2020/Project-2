@@ -1,3 +1,4 @@
-export default function handler(req, res) {
-  res.status(200).json({ message: "Hello, world!" });
-}
+import express from 'express';
+const app = express();
+
+export default app;
